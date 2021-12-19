@@ -1,0 +1,120 @@
+{
+  "description": "Система Больница. Врач определяет диагноз, делает назначение Пациенту (процедуры, лекарства, операции). Назначение может выполнить Медсестра (процедуры, лекарства) или Врач (любое назначение). Пациент может быть выписан из Больницы, при этом фиксируется окончательный диагноз.",
+  "patients": [
+    {
+      "profile": {
+        "name": "Ivan",
+        "surname": "Ivanov",
+        "age": 50,
+        "sex": "MAN"
+      },
+      "status": "IN_PROGRESS",
+      "diagnosis": "Puncture wound without foreign body of left lesser toe(s) without damage to nail",
+      "treatments": "PROCEDURE: Appendectomy, twice a day after meals; PROCEDURE: MRI; MEDICINE: aspirin, twice a day after meals",
+      "therapists": [
+        {
+          "name": "Petr",
+          "surname": "Petrov",
+          "role": "DOCTOR"
+        },
+        {
+          "name": "Abramova",
+          "surname": "Maiia",
+          "role": "NURSE"
+        }
+      ]
+    },
+    {
+      "profile": {
+        "name": "Vladimir",
+        "surname": "Avdeev",
+        "age": 23,
+        "sex": "MAN"
+      },
+      "status": "CLOSED",
+      "diagnosis": "Strain of unspecified muscle and tendon at ankle and foot level",
+      "treatments": "PROCEDURE: Heart Bypass Surgery",
+      "therapists": [
+        {
+          "name": "Ivan",
+          "surname": "Borodin",
+          "role": "DOCTOR"
+        },
+        {
+          "name": "Maiia",
+          "surname": "Abramova",
+          "role": "NURSE"
+        }
+      ]
+    },
+    {
+      "profile": {
+        "name": "Alina",
+        "surname": "Ageeva",
+        "age": 35,
+        "sex": "WOMAN"
+      },
+      "status": "IN_PROGRESS",
+      "diagnosis": "Other complications of amputation stump",
+      "treatments": "MEDICINE: analgesics, once a day at 12:00; PROCEDURE: Echocardiogram;",
+      "therapists": [
+        {
+          "name": "Konstantin",
+          "surname": "Bolshakov",
+          "role": "DOCTOR"
+        },
+        {
+          "name": "Ilia",
+          "surname": "Vasilev",
+          "role": "NURSE"
+        }
+      ]
+    },
+    {
+      "profile": {
+        "name": "Sofiia",
+        "surname": "Aleksandrova",
+        "age": 64,
+        "sex": "WOMAN"
+      },
+      "status": "IN_PROGRESS",
+      "diagnosis": "Unspecified complication following infusion and therapeutic injection",
+      "treatments": "PROCEDURE: X-Ray, twice a weak; MEDICINE: pain killer; SURGERY: to set a plaster cast",
+      "therapists": [
+        {
+          "name": "Petr",
+          "surname": "Petrov",
+          "role": "DOCTOR"
+        },
+        {
+          "name": "Maiia",
+          "surname": "Abramova",
+          "role": "NURSE"
+        }
+      ]
+    },
+    {
+      "profile": {
+        "name": "Agrafina",
+        "surname": "Romanova",
+        "age": 48,
+        "sex": "WOMAN"
+      },
+      "status": "CLOSED",
+      "diagnosis": "Chronic myeloid leukemia, BCR/ABL-positive, in remission",
+      "treatments": "MEDICINE: Apropentin Aganovate, 1 tab before eat; MEDICINE: Anaferol, twice a day",
+      "therapists": [
+        {
+          "name": "Ivan",
+          "surname": "Borodin",
+          "role": "DOCTOR"
+        },
+        {
+          "name": "Zhukov",
+          "surname": "Nikolai",
+          "role": "NURSE"
+        }
+      ]
+    }
+  ]
+}
