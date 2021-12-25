@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Connector {
-    private final static String Db_url = "jdbc:postgresql://127.0.0.1:5432/Hospital";
+    private final static String Db_url = "jdbc:postgresql://127.0.0.1:5432/hospitaldb";
     private final static String User = "Kras";
     private final static String Password = "ozimandias";
 
